@@ -116,18 +116,63 @@ export const experiences = [
       'Produced actionable insights that enhanced institutional understanding of teaching quality.',
     ],
   },
+];
+
+export const volunteering = [
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#a2d2ff',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
+    title: 'English Teacher Volunteer for Lincoln Literacy',
+    description:
+        'Taught English to students from Turkey, Iran, and Iraq with little prior knowledge of the language. Designed interactive classes and activities to foster communication and confidence.',
+  },
+  {
+    title: 'Creative Coding Club Teacher',
+    description:
+        'Introduced middle schoolers to HTML, CSS, and JavaScript through hands-on projects, fostering creativity and collaboration in an engaging environment.',
+  },
+  {
+    title: 'Math Tutoring Program',
+    description:
+        'Founded a program to help students learn basic concepts in mathmatics, teaching trough inovative methods to keep the kids engaged and teach them not only math, but to like to learn math.',
+  },
+
+];
+
+export const extracurriculars = [
+  {
+    imageUrl: '/src/assets/images/tenaska.jpg',
+    title: 'Tenaska Business Challenge',
+    description:
+        'Collaborated with a team to develop strategic solutions for a real estate company, placing 2nd out of 30 teams. Strengthened public speaking and interdisciplinary communication skills, qualifying for the regional round.',
+  },
+  {
+    imageUrl: '/src/assets/images/brasa.jpg',
+    title: 'Vice-President of BRASA',
+    description:
+        'Led a project to recruit Brazilian students to UNL, helping four students enroll in one semester. Focused on storytelling and mentorship to break barriers and highlight opportunities for prospective students.',
+  },
+  {
+    imageUrl: '/src/assets/images/teqball.jpg',
+    title: 'President of the TeqBall Club',
+    description:
+        'Expanded membership for the sport, organizing weekly sessions, managing logistics, and promoting events. Fostered teamwork and inclusivity, building a sense of community through shared passion.',
+  },
+  {
+    imageUrl: '/src/assets/images/unitednations.jpg',
+    title: 'United Nations',
+    description:
+        'Participated on a diverse group to win multiple intramural championships at UNL, including indoor and outdoor soccer. Fostered cultural exchange and inclusivity, creating a strong community of friends and teammates.',
+  },
+  {
+    imageUrl: '/src/assets/images/huskers.jpg',
+    title: 'Watching Huskers Games',
+    description:
+        'Cheered for the Huskers at Memorial Stadium with friends, enjoying the vibrant atmosphere and building lifelong memories. These moments strengthened friendships and showcased the powerful sense of community at UNL.',
+  },
+  {
+    imageUrl: '/src/assets/images/bbq.jpg',
+    title: 'Hosting Barbecues',
+    description:
+        'I love hosting barbecues with my friends, sharing the Brazilian way of grilling. It’s a perfect opportunity to bond, enjoy great food, and introduce a taste of Brazilian culture to everyone.',
   },
 ];
 
@@ -153,49 +198,33 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: 'btn-back-red',
-    name: 'Amazon Price Tracker',
+    name: 'Sales Management and Reporting System',
     description:
-        'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    link: 'https://github.com/adrianhajdin/pricewise',
+        'Object-oriented system, written in Java, that supports YRLess’s business model implementing a sales subsystem that will be responsible for managing sales data and producing complete reports in a database-backed system.',
+    link: 'https://github.com/lucascoelho-unl/proj-sales-system',
   },
   {
     iconUrl: threads,
     theme: 'btn-back-green',
-    name: 'Full Stack Threads Clone',
+    name: '3D Portfolio Website',
     description:
-        'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: 'https://github.com/adrianhajdin/threads',
-  },
-  {
-    iconUrl: car,
-    theme: 'btn-back-blue',
-    name: 'Car Finding App',
-    description:
-        'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-  },
-  {
-    iconUrl: snapgram,
-    theme: 'btn-back-pink',
-    name: 'Full Stack Instagram Clone',
-    description:
-        'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    link: 'https://github.com/adrianhajdin/social_media_app',
+        'This project is what you are looking at right now! This 3D portfolio website, built with Three.js, is a visual playground of interactive 3D rendering, creative animations, and immersive experiences. Packed with cool features, it’s not just a website—it’s a digital portifolio.!',
+    link: 'https://github.com/lucascoelho-unl/portifolio',
   },
   {
     iconUrl: estate,
     theme: 'btn-back-black',
-    name: 'Real-Estate Application',
+    name: 'Chess engine',
     description:
-        'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    link: 'https://github.com/adrianhajdin/projects_realestate',
+        'I developed a chess engine from scratch using advanced algorithms like bitboards, magic hashing, and quiescence search. The project integrates a C++ backend with a JavaScript frontend, allowing users to play and interact with the engine via an API.',
+    link: 'https://github.com/lucascoelho-unl/chess_engine',
   },
   {
     iconUrl: summiz,
     theme: 'btn-back-yellow',
-    name: 'AI Summarizer Application',
+    name: 'J.A.R.V.I.S.',
     description:
-        'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        'I created a voice-activated virtual assistant using Python, with OpenAI API integration for natural language processing. J.A.R.V.I.S. enables speech recognition, voice response, and full computer control for automating daily tasks.',
+    link: 'https://github.com/lucascoelho-unl/proj-jarvis',
   }
 ];
