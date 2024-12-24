@@ -1,5 +1,5 @@
 import {c, car, contact, cpp, css, estate, express, git, github, html, java, javascript, linkedin, mongodb, motion, mui, mysql, nextjs, nodejs, postgresql, pricewise, python, react, redux, sass, snapgram, summiz, tailwindcss, threads, typescript} from '../assets/icons';
-import {meta, nu, payby, shopify, starbucks, tesla, unl} from '../assets/images';
+import {bbq, brasa, huskers, nu, payby, tenaska, teqball, unitednations, unl} from '../assets/images';
 
 export const skills = [
   {
@@ -139,37 +139,37 @@ export const volunteering = [
 
 export const extracurriculars = [
   {
-    imageUrl: '/src/assets/images/tenaska.jpg',
+    imageUrl: tenaska,
     title: 'Tenaska Business Challenge',
     description:
         'Collaborated with a team to develop strategic solutions for a real estate company, placing 2nd out of 30 teams. Strengthened public speaking and interdisciplinary communication skills, qualifying for the regional round.',
   },
   {
-    imageUrl: '/src/assets/images/brasa.jpg',
+    imageUrl: brasa,
     title: 'Vice-President of BRASA',
     description:
         'Led a project to recruit Brazilian students to UNL, helping four students enroll in one semester. Focused on storytelling and mentorship to break barriers and highlight opportunities for prospective students.',
   },
   {
-    imageUrl: '/src/assets/images/teqball.jpg',
+    imageUrl: teqball,
     title: 'President of the TeqBall Club',
     description:
         'Expanded membership for the sport, organizing weekly sessions, managing logistics, and promoting events. Fostered teamwork and inclusivity, building a sense of community through shared passion.',
   },
   {
-    imageUrl: '/src/assets/images/unitednations.jpg',
+    imageUrl: unitednations,
     title: 'United Nations',
     description:
         'Participated on a diverse group to win multiple intramural championships at UNL, including indoor and outdoor soccer. Fostered cultural exchange and inclusivity, creating a strong community of friends and teammates.',
   },
   {
-    imageUrl: '/src/assets/images/huskers.jpg',
+    imageUrl: huskers,
     title: 'Watching Huskers Games',
     description:
         'Cheered for the Huskers at Memorial Stadium with friends, enjoying the vibrant atmosphere and building lifelong memories. These moments strengthened friendships and showcased the powerful sense of community at UNL.',
   },
   {
-    imageUrl: '/src/assets/images/bbq.jpg',
+    imageUrl: bbq,
     title: 'Hosting Barbecues',
     description:
         'I love hosting barbecues with my friends, sharing the Brazilian way of grilling. It’s a perfect opportunity to bond, enjoy great food, and introduce a taste of Brazilian culture to everyone.',

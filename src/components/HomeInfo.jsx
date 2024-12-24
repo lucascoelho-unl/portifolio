@@ -23,7 +23,7 @@ const renderContent = {
     ),
     2: (
         <InfoBox
-            text="Worked with many people and picked up many intresting stuff along the way"
+            text="Worked with many people and picked up many interesting stuff along the way"
             link="/about"
             btnText="Learn more"
         />

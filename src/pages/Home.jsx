@@ -19,7 +19,10 @@ const Home = () => {
     const [isRotating, setIsRotating] = useState(false)
     const [currentStage, setCurrentStage] = useState(1)
     const [isPlayingMusic, setIsPlayingMusic] = useState(false)
-    const [showInstructions, setShowInstructions] = useState(true);
+    const [showInstructions, setShowInstructions] = useState(() => {
+        // Check localStorage to decide whether to show the instructions
+        return !localStorage.getItem('instructionsShown');
+    });
 
     useEffect(() => {
         if (isPlayingMusic) {
@@ -31,11 +34,16 @@ const Home = () => {
         }
     }, [isPlayingMusic])
 
+    const handleDismissInstructions = () => {
+        setShowInstructions(false);
+        // Set the flag in localStorage to indicate the instructions were shown
+        localStorage.setItem('instructionsShown', 'true');
+    };
+
     const adjustPlaneForScreenSize = () => {
         let screenScale, screenPosition;
         let planeRotation = [0, 20.1, 0]
 
-        // If screen width is less than 768px, adjust the scale and position
         if (window.innerWidth < 768) {
             screenScale = [1.5, 1.5, 1.5];
             screenPosition = [0, -1.5, 0];
@@ -77,7 +85,7 @@ const Home = () => {
                         </p>
                         <button
                             className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-                            onClick={() => setShowInstructions(false)}
+                            onClick={handleDismissInstructions}
                         >
                             Got it!
                         </button>
